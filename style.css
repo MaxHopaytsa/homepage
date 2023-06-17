@@ -85,7 +85,7 @@ body {
 }
 
 .contact-info__sub-header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     margin-bottom: 30px;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .contact-info__item {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-decoration: none;
     display: flex;
     justify-content: start;
@@ -136,13 +136,11 @@ body {
 }
 
 .email-text {
-    color: #000;
     text-decoration: none;
 
   }
   
   .phone-number {
-    color: #000;
     text-decoration: none;
 
   }
@@ -152,6 +150,7 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--text-decoration-color);
   }
+
 /*Intro and skills styles*/
 
 .intro {
@@ -181,7 +180,7 @@ body {
 }
 
 .skills__header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: center;
     margin-bottom: 15px;
 }
@@ -212,7 +211,7 @@ body {
 }
 
 .experiences__header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
@@ -264,7 +263,7 @@ body {
 }
 
 .additional-info__education-header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
@@ -291,7 +290,7 @@ body {
 }
 
 .additional-info__languages-header {
-    color: var(--secondary-text-color);
+  color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
@@ -300,6 +299,8 @@ body {
     color: var(--secondary-text-color);
 }
 
+
+ /* Dark them switcher style */
 .theme-switcher {
     position: fixed;
     top: 20px;

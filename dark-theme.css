@@ -19,7 +19,7 @@ body.dark-theme {
 }
 
 .contact-info__item {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 .contact-info__item-icon path {
@@ -32,7 +32,7 @@ body.dark-theme {
 
 .email-text,
 .phone-number {
-    color: #ffffff;
+    color: var(--primary-text-color);
 }
 
 .email:hover,
@@ -50,7 +50,7 @@ body.dark-theme {
 }
 
 .skills__header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 .skills__text {
@@ -60,9 +60,8 @@ body.dark-theme {
 .skills__list li {
     color: var(--secondary-text-color);
   }
+
 /* Experience and additional info styles */
-
-
 .experiences__header {
     color: var(--secondary-text-color);
 }
@@ -105,7 +104,7 @@ body.dark-theme {
 }
 
 .additional-info__languages-header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 .additional-info__languages-item {
