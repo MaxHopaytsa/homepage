@@ -1,0 +1,113 @@
+/* Стилі для темної теми */
+body.dark-theme {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #b2b2b2;
+    --durability-text-color: #b2b2b2;
+    --icon-color: #b2b2b2;
+    --border-color: #d5e215;
+    --text-decoration-color: #cf142d;
+    background-color: #181820;
+  }
+  
+  .contact-info__header {
+    color: var(--primary-text-color);
+    text-decoration-color: var(--text-decoration-color);
+}
+
+.contact-info__sub-header {
+    color: var(--secondary-text-color);
+}
+
+.contact-info__item {
+    color: var(--secondary-text-color);
+}
+
+.contact-info__item-icon path {
+    fill: var(--icon-color);
+}
+
+.contact-info__avatar {
+    border-color: var(--text-decoration-color);
+}
+
+.email-text,
+.phone-number {
+    color: #ffffff;
+}
+
+.email:hover,
+.phone:hover {
+    text-decoration-color: var(--text-decoration-color);
+}
+
+/* Intro and skills styles */
+.intro__icon path {
+    fill: var(--text-decoration-color);
+}
+
+.intro_text {
+    color: var(--secondary-text-color);
+}
+
+.skills__header {
+    color: var(--secondary-text-color);
+}
+
+.skills__text {
+    color: var(--secondary-text-color);
+}
+
+.skills__list li {
+    color: var(--secondary-text-color);
+  }
+/* Experience and additional info styles */
+
+
+.experiences__header {
+    color: var(--secondary-text-color);
+}
+
+.experiences__company-header-durability {
+    color: var(--durability-text-color);
+}
+
+.experiences__company-header-name {
+    color: var(--primary-text-color);
+    text-decoration-color: var(--text-decoration-color);
+}
+
+.experiences__company-project-role {
+    color: var(--durability-text-color);
+}
+
+.experiences__company-project-name {
+    color: var(--primary-text-color);
+}
+
+.experiences__company-project-responsibilities {
+    color: var(--secondary-text-color);
+}
+
+.additional-info__education-header {
+    color: var(--secondary-text-color);
+}
+
+.additional-info__education-university-durability {
+    color: var(--durability-text-color);
+}
+
+.additional-info__education-university-speciality {
+    color: var(--primary-text-color);
+}
+
+.additional-info__education-university-name {
+    color: var(--secondary-text-color);
+}
+
+.additional-info__languages-header {
+    color: var(--secondary-text-color);
+}
+
+.additional-info__languages-item {
+    color: var(--secondary-text-color);
+}

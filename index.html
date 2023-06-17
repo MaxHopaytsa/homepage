@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark-theme.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
 <main>
+
+  <div class="theme-switcher" id="theme-switcher">
+    <svg class="theme-switcher-icon theme-switcher-icon-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M12 3C6.486 3 2 7.486 2 13c0 5.515 4.486 10 10 10s10-4.485 10-10c0-5.514-4.486-10-10-10zm0 18.75C7.215 21.75 3.25 17.785 3.25 13S7.215 4.25 12 4.25 20.75 8.215 20.75 13 16.785 21.75 12 21.75zm0-17C8.61 4.75 5.75 7.61 5.75 11.25s2.86 6.5 6.5 6.5 6.5-2.36 6.5-6.5S15.39 4.75 12 4.75zm0 11.75a5.245 5.245 0 0 1-5.25-5.25A5.245 5.245 0 0 1 12 6.25a5.245 5.245 0 0 1 5.25 5.25A5.245 5.245 0 0 1 12 16.5z"/>
+    </svg>
+    <svg class="theme-switcher-icon theme-switcher-icon-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M12 3C6.486 3 2 7.486 2 13c0 5.515 4.486 10 10 10s10-4.485 10-10c0-5.514-4.486-10-10-10zm0 18.75C7.215 21.75 3.25 17.785 3.25 13S7.215 4.25 12 4.25 20.75 8.215 20.75 13 16.785 21.75 12 21.75zm0-17C8.61 4.75 5.75 7.61 5.75 11.25s2.86 6.5 6.5 6.5 6.5-2.36 6.5-6.5S15.39 4.75 12 4.75zm0 11.75a5.245 5.245 0 0 1-5.25-5.25A5.245 5.245 0 0 1 12 6.25a5.245 5.245 0 0 1 5.25 5.25A5.245 5.245 0 0 1 12 16.5z"/>
+    </svg>
+    <span id="theme-switcher-text">Switch Theme</span>
+  </div>
+
   <div class="resume">
     <div class="container">
       <div class="resume__block">
@@ -17,27 +29,23 @@
         <div class="contact_info_container fh">
           <div class="contact-info__block">
 
-              <a href="" rel="author" class="contact-info__item">
-                <div class="contact-info__item-icon-wrapper">
-                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                     <path
-                      d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                    </path> 
-                   </svg>
-                </div>
-                <span>gopaytsa.maks@gmail.com</span>
-              </a> 
-
-              <a href="" rel="author" class="contact-info__item">
-                <div class="contact-info__item-icon-wrapper">
-                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                     <path
-                      d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                    </path> 
-                   </svg>
-                </div>
-                <span>+380969859105</span>
-              </a> 
+            <a href="mailto:gopaytsa.maks@gmail.com" rel="author" class="contact-info__item email">
+              <div class="contact-info__item-icon-wrapper">
+                <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                </svg>
+              </div>
+              <span class="email-text">gopaytsa.maks@gmail.com</span>
+            </a>
+          
+            <a href="tel:+380969859105" rel="author" class="contact-info__item phone">
+              <div class="contact-info__item-icon-wrapper">
+                <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512">
+                  <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
+                </svg>
+              </div>
+              <span class="phone-number">+380969859105</span>
+            </a>
           </div>
         
           <div class="contact-info__block contact-info__block--center">
@@ -48,9 +56,9 @@
             <a href="" rel="author" class="contact-info__item">
               <div class="contact-info__item-icon-wrapper">
                 <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                  <!-- <path
+                  <path
                     d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                  </path> -->
+                  </path>
                 </svg>
               </div>
               <span>Bila Tserkva, Ukraine</span>
@@ -63,13 +71,6 @@
     <div class="container">
       <div class="resume__block">
         <div class="intro">
-          <div class="intro__icon-wrapper">
-            <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-              <path
-                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
-              </path>
-            </svg>
-          </div>
           <p class="intro_text">I like to absorb new knowledge every time and immediately put it into
             practice, and that's why I chose web development. Now I am completely
             satisfied with this choice, because learning new technologies and tools
@@ -86,7 +87,17 @@
       <div class="resume__block">
         <div class="skills">
           <h3 class="skills__header">Skills</h3>
-          <p class="skills__text">HTML, CSS/SASS/Tailwind CSS, JavaScript ES6+, GIT, React js/Material-UI/React Router, Next js, MongoDB, Redux, Apollo GraphQL. </p>
+          <ul class="skills__list">
+            <li>HTML</li>
+            <li>CSS/SASS/Tailwind CSS</li>
+            <li>JavaScript ES6+</li>
+            <li>GIT</li>
+            <li>React js/Material-UI/React Router</li>
+            <li>Next js</li>
+            <li>MongoDB</li>
+            <li>Redux</li>
+            <li>Apollo GraphQL</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -114,7 +125,7 @@
                 <h3 class="additional-info__education-university-speciality">Bachelor Degree Field of study “Chemical technologies”</h3>
                 <p class="additional-info__education-university-name">Lviv Polytechnic National University</p>
                 <span class="additional-info__education-university-durability">September 2019 - December 2020 </span>
-                <h3 class="additional-info__education-university-speciality">Master Degree  Program Subject Area “Chemical technology and engineering””</h3>
+                <h3 class="additional-info__education-university-speciality">Master Degree  Program Subject Area “Chemical technology and engineering”</h3>
                 <p class="additional-info__education-university-name">Lviv Polytechnic National University</p>
               </div>
             </div>
@@ -137,6 +148,21 @@
 
   </div>
 </main>
+<script>
 
+  const themeSwitcher = document.getElementById('theme-switcher');
+  const themeSwitcherText = document.getElementById('theme-switcher-text');
+  const body = document.body;
+
+  themeSwitcher.addEventListener('click', function() {
+    body.classList.toggle('dark-theme');
+    if (body.classList.contains('dark-theme')) {
+      themeSwitcherText.textContent = 'Light Theme';
+    } else {
+      themeSwitcherText.textContent = 'Dark Theme';
+    }
+  });
+</script>
   </body>
+  
 </html>
